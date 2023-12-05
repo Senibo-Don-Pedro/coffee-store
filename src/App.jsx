@@ -1,6 +1,8 @@
+import About from "./components/About"
 import Home from "./components/Home"
 import Menu from "./components/Menu"
 import NavBar from "./components/NavBar"
+import Products from "./components/Products"
 
 const App = () => {
   return (
@@ -14,6 +16,14 @@ const App = () => {
 
         <div id="Menu">
           <Menu />
+        </div>
+
+        <div id="About Us">
+          <About />
+        </div>
+
+        <div>
+          <Products />
         </div>
       </main>
     </div>

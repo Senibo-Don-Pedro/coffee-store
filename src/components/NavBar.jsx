@@ -9,7 +9,6 @@ const NavBar = () => {
     { title: "Home" },
     { title: "Menu" },
     { title: "About Us" },
-    { title: "Products" },
     { title: "Reviews" },
   ]
 

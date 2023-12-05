@@ -1,8 +1,9 @@
 import About from "./components/About"
+import Footer from "./components/Footer"
 import Home from "./components/Home"
 import Menu from "./components/Menu"
 import NavBar from "./components/NavBar"
-import Products from "./components/Products"
+import Review from "./components/Review"
 
 const App = () => {
   return (
@@ -22,10 +23,14 @@ const App = () => {
           <About />
         </div>
 
-        <div>
-          <Products />
+        <div id="Reviews">
+          <Review />
         </div>
       </main>
+
+      <footer>
+        <Footer />
+      </footer>
     </div>
   )
 }
